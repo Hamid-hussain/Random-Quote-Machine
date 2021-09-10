@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Random-Quote-Machine/static/css/main.acf77aeb.chunk.css",
-    "main.js": "/Random-Quote-Machine/static/js/main.629f0cc7.chunk.js",
-    "main.js.map": "/Random-Quote-Machine/static/js/main.629f0cc7.chunk.js.map",
-    "runtime-main.js": "/Random-Quote-Machine/static/js/runtime-main.4a258dc1.js",
-    "runtime-main.js.map": "/Random-Quote-Machine/static/js/runtime-main.4a258dc1.js.map",
-    "static/js/2.2e461b69.chunk.js": "/Random-Quote-Machine/static/js/2.2e461b69.chunk.js",
-    "static/js/2.2e461b69.chunk.js.map": "/Random-Quote-Machine/static/js/2.2e461b69.chunk.js.map",
-    "static/js/3.5a5ff3b7.chunk.js": "/Random-Quote-Machine/static/js/3.5a5ff3b7.chunk.js",
-    "static/js/3.5a5ff3b7.chunk.js.map": "/Random-Quote-Machine/static/js/3.5a5ff3b7.chunk.js.map",
-    "index.html": "/Random-Quote-Machine/index.html",
-    "static/css/main.acf77aeb.chunk.css.map": "/Random-Quote-Machine/static/css/main.acf77aeb.chunk.css.map",
-    "static/js/2.2e461b69.chunk.js.LICENSE.txt": "/Random-Quote-Machine/static/js/2.2e461b69.chunk.js.LICENSE.txt"
+    "main.css": "/get-skill-quote-machine/static/css/main.acf77aeb.chunk.css",
+    "main.js": "/get-skill-quote-machine/static/js/main.629f0cc7.chunk.js",
+    "main.js.map": "/get-skill-quote-machine/static/js/main.629f0cc7.chunk.js.map",
+    "runtime-main.js": "/get-skill-quote-machine/static/js/runtime-main.97d30ace.js",
+    "runtime-main.js.map": "/get-skill-quote-machine/static/js/runtime-main.97d30ace.js.map",
+    "static/js/2.2e461b69.chunk.js": "/get-skill-quote-machine/static/js/2.2e461b69.chunk.js",
+    "static/js/2.2e461b69.chunk.js.map": "/get-skill-quote-machine/static/js/2.2e461b69.chunk.js.map",
+    "static/js/3.5a5ff3b7.chunk.js": "/get-skill-quote-machine/static/js/3.5a5ff3b7.chunk.js",
+    "static/js/3.5a5ff3b7.chunk.js.map": "/get-skill-quote-machine/static/js/3.5a5ff3b7.chunk.js.map",
+    "index.html": "/get-skill-quote-machine/index.html",
+    "static/css/main.acf77aeb.chunk.css.map": "/get-skill-quote-machine/static/css/main.acf77aeb.chunk.css.map",
+    "static/js/2.2e461b69.chunk.js.LICENSE.txt": "/get-skill-quote-machine/static/js/2.2e461b69.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a258dc1.js",
+    "static/js/runtime-main.97d30ace.js",
     "static/js/2.2e461b69.chunk.js",
     "static/css/main.acf77aeb.chunk.css",
     "static/js/main.629f0cc7.chunk.js"
