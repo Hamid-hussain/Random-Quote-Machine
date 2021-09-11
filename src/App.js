@@ -41,8 +41,8 @@ function App() {
             ~ {author}
           </p>
           <div id="clickable-box">
-          <a href="twitter.com/intent/tweet" >
-            <img src="https://img.icons8.com/fluency/48/000000/twitter.png" id="tweet-quote" alt="twitter icon"/>
+          <a href="twitter.com/intent/tweet" id="tweet-quote" >
+            <img src="https://img.icons8.com/fluency/48/000000/twitter.png" id="tweet-quote-img" alt="twitter icon"/>
             </a>
             <button id="new-quote" onClick={()=>getRandomQuote()}>Next Quote</button>
           </div>
