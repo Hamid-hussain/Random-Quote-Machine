@@ -6,7 +6,7 @@ let quoteDBUrl = 'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c958
 function App() {
   const[quote, setQuote] = useState('Happiness is not what you will achieve, its all about what you already have!');
   const[author, setAuthor] = useState("hussain hafeez");
-  const[randomNumber, setRandomNumber] = useState(null);
+  const[, setRandomNumber] = useState(0);
   const[quotesArray, setQuotesArray] = useState(null);
 
   const fetchQuotes = async (url) => {
@@ -18,7 +18,7 @@ function App() {
   
   useEffect(() => {
     fetchQuotes(quoteDBUrl)
-  }, [quoteDBUrl])
+  }, [])
 
   const getRandomQuote = () =>{
     let randomInteger = Math.floor(quotesArray.length*Math.random())
@@ -32,16 +32,19 @@ function App() {
       <header className="App-header">
         <div id="quote-box">
           <p id="text">
-            "{quote}"
+            <span>
+            <img src="https://img.icons8.com/material-rounded/24/000000/quote-left.png"/>
+            </span>
+            {quote}"
           </p>
           <p id="author">
             ~ {author}
           </p>
-          <div>
-            <button id="new-quote" onClick={()=>getRandomQuote()}>Next Quote</button>
-            <a href="twitter.com/intent/tweet" id="tweet-quote">
-            <img src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+          <div id="clickable-box">
+          <a href="twitter.com/intent/tweet" >
+            <img src="https://img.icons8.com/fluency/48/000000/twitter.png" id="tweet-quote" alt="twitter icon"/>
             </a>
+            <button id="new-quote" onClick={()=>getRandomQuote()}>Next Quote</button>
           </div>
         </div>
       </header>

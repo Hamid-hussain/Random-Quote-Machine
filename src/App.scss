@@ -1,16 +1,56 @@
 .App {
-  text-align: center;
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: red;
-  }
+  text-align: center;  
 }
-
+#quote-box{
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+}
+#clickable-box{
+}
+.App-header {
+ background-color: #282c34;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: black;
+}
+#text{
+  font-weight: bold;
+}
+#author{
+ text-align: end;
+ font-size: 15px;
+}
+#tweet-quote{
+  height: 25px;
+  padding: 5px;
+}
+#clickable-box{
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+#new-quote{
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 5px 5px 5px grey;
+}
+#new-quote:hover{
+  color: white;
+  background-color:rgb(105, 100, 70);
+}
+#tweet-quote:hover{
+  background-color: rgb(105, 100, 70);;
+  border-radius: 50%;
+  
+}
 
 
